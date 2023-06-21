@@ -1,4 +1,7 @@
 import App from './App';
 import { render } from '@wordpress/element';
 
-render(<App />, document.getElementById('plugin-boilerplate'));
+const pluginContainer = document.getElementById('plugin-boilerplate');
+if (pluginContainer) {
+    render(<App />, pluginContainer);
+}
