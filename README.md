@@ -1,6 +1,6 @@
 # Wordpress plugin boilerplate
 
-客製化 Wordpress(WP) plugin 模板
+客製化 Wordpress(WP) plugin 模板 for React
 
 ## Development & build
 
