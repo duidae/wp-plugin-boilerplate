@@ -4,18 +4,24 @@
 
 ## Development & build
 
-### preliminary
+### Preliminary
 
+[開發]
+1. 在{wp_location}/wp-content/plugins/ 目錄下 git clone 本專案
+2. yarn install -> yarn start
+3. 在 Wordpress admin panel啟用本plugin
+
+[安裝]
 1. yarn install -> yarn build 會產生 js script, 清除 node_modules/並將 folder 壓縮成 zip
 2. 在 Wordpress admin panel 安裝該 zip 並啟用 plugin
 
 P.S. WP 會把 plugin 放在 {wp_location}/wp-content/plugins/
 
-### development:
+### Development:
 
 #### `yarn start`
 
-### build:
+### Build:
 
 #### `yarn build`
 
