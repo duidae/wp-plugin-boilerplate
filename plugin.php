@@ -23,9 +23,9 @@ add_action( 'admin_menu', function() {
         'dashicons-admin-post',
         '2.1'
     );
-} );
+});
 
 add_action( 'admin_enqueue_scripts', function() {
-    wp_enqueue_style( 'plugin-boilerplate-style', plugin_dir_url( __FILE__ ) . 'build/index.css' );
-    wp_enqueue_script( 'plugin-boilerplate-script', plugin_dir_url( __FILE__ ) . 'build/index.js', array( 'wp-element' ), '1.0.0', true );
-} );
+    wp_enqueue_style( 'plugin-boilerplate-style', plugin_dir_url( __FILE__ ) . 'build/index.css');
+    wp_enqueue_script( 'plugin-boilerplate-script', plugin_dir_url( __FILE__ ) . 'build/index.js', array( 'wp-element' ), '1.0.0', true);
+});
